@@ -1,0 +1,11 @@
+/*Bootstarp unán legyen*/
+body {
+    background-image: url(hatter.jpg);
+}
+main {
+    background-color: white;
+}
+.container {
+    margin-right: auto !important;
+    margin-left: auto !important;    
+}

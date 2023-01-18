@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap gyakorlas">
+    <meta name="keywords" content="bootstrap">
+    <meta name="author" content="Dreilinger Vanessza Maja">
+    <title>Dreilinger Vanessza Maja</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container row">
+        <header class="col-md-12">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="caroussel/_DSC3848.jpg" alt="első kép" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="caroussel/_DSC4083.jpg" alt="második kép" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="caroussel/_DSC4099.jpg" alt="harmadik kép" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="caroussel/_DSC4253-1.jpg" alt="negyedik kép" class="d-block w-100">
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+        </header>
+        <nav class="col-md-12 navbar navbar-expand-sm bg-primary navbar-dark">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Vadálló kövek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tisza tó</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Beliczay stiget</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Burok völgy</a>
+                </li>
+            </ul>
+        </nav>
+
+        <aside class="col-md-3 ">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-light"><a href="#">Vadálló kövek</a></li>
+                <li class="list-group-item list-group-item-light"><a href="#">Tisza tó</a></li>
+                <li class="list-group-item list-group-item-light"><a href="#">Beliczay stiget</a></li>
+                <li class="list-group-item list-group-item-light"><a href="#">Burok völgy</a></li>
+            </ul>
+        </aside>
+
+        <article class="col-md-9">
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Kirándulási helye</th>
+                        <th>Megtett táv</th>
+                        <th>Típus</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vadálló kövek</td>
+                        <td>25km</td>
+                        <td>gyalogtúra</td>
+                    </tr>
+                    <tr>
+                        <td>Tisza tó</td>
+                        <td>75km</td>
+                        <td>kerékpár</td>
+                    </tr>
+                    <tr>
+                        <td>Beliczay stiget</td>
+                        <td>10km</td>
+                        <td>gyalogtúra</td>
+                    </tr>
+                    <tr>
+                        <td>Burok völgy</td>
+                        <td>15km</td>
+                        <td>gyalogtúra</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="row">
+                <img class="col-sm-4 rounded img-fluid " src="kepek/_DSC4503-2.jpeg" alt="kep1">
+                <img class="col-sm-4 rounded img-fluid " src="kepek/_DSC3751.jpeg" alt="kep2">
+                <img class="col-sm-4 rounded img-fluid " src="kepek/_DSC4641.jpeg" alt="kep3">                
+            </div>
+        </article>
+        
+        <footer>
+            <div class="d-flex">
+                <div class="flex-shrink-0">
+                    <img class="rounded-circle d-block img-fluid" src="kepek/_DSC4601.jpeg" alt="Sample Image" width="100px">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                    <h5>Dézsi <small class="text-muted"><i>Esőben nem szeret fotozni</i></small></h5>
+                    <p>Hősiesen és csuromvizesen türte amíg minden gombát lefotóztunk</p>
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <div class="flex-shrink-0">
+                    <img class="rounded-circle d-block img-fluid" src="kepek/_DSC4601.jpeg" alt="Sample Image" width="100px">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                    <h5>Sári <small class="text-muted"><i>Nagyon várta már, hogy hazamenjünk</i></small></h5>
+                    <p>Hősiesen és csuromvizesen türte amíg minden gombát lefotóztunk</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
